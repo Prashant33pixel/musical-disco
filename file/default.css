@@ -97,3 +97,49 @@ a {
   font-size: 25px;
   font-family: monospace;
 }
+/* 🌐 Responsive adjustments for mobile screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 12px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #wrap,
+  #canvas {
+    width: 100%;
+    height: auto;
+  }
+
+  #text {
+    width: 90%;
+    height: auto;
+    position: static;
+    margin: 20px auto;
+  }
+
+  #code {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 40px;
+  }
+
+  #clock-box {
+    position: static;
+    margin: 20px auto;
+    font-size: 20px;
+    padding: 8px 15px;
+  }
+
+  #message-box {
+    position: static;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .space {
+    margin-right: 0;
+  }
+}
+

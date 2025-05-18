@@ -66,10 +66,8 @@ a {
   text-align: center;
 }
 
-#canvas {
-  margin: 0 auto;
-  width: 1100px;
-  height: 680px;
+canvas {
+  display: block;
 }
 
 #error {
@@ -105,11 +103,12 @@ a {
     background-position: center;
   }
 
-  #wrap,
-  #canvas {
-    width: 100%;
-    height: auto;
-  }
+#wrap, #canvas {
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+  margin: 0 auto;
+}
 
   #text {
     width: 90%;

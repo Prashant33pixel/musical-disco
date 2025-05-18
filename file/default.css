@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../img2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: white;
+  overflow: auto;
+}
+
+a {
+  color: white;
+  font-size: 14px;
+}
+
+#main {
+  width: 100%;
+}
+
+#wrap {
+  position: relative;
+  margin: 0 auto;
+  width: 1100px;
+  height: 680px;
+  margin-top: 10px;
+}
+
+#text {
+  width: 250px;
+  height: 600px;
+  left: 50px;
+  top: 80px;
+  position: absolute;
+}
+
+#code {
+  display: none; /* Hides it initially */
+  color: rgb(196, 255, 255);
+  font-size: 16px;
+  margin-top: 70px;
+  line-height: 25px;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+/* 🎂 Updated Clock Box Style */
+#clock-box {
+  position: absolute;
+  bottom: 20px;
+  left: 35%;
+  transform: translateX(-50%);
+  font-size: 28px;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  color: #ffc9dc;
+  text-shadow: 0 0 8px #ff80ab;
+  display: none; /* will be shown with JavaScript */
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 25px;
+  border-radius: 8px;
+}
+
+#clock {
+  text-align: center;
+}
+
+#canvas {
+  margin: 0 auto;
+  width: 1100px;
+  height: 680px;
+}
+
+#error {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 60px;
+  display: none;
+}
+
+.hand {
+  cursor: pointer;
+}
+
+.say {
+  margin-left: 5px;
+}
+
+.space {
+  margin-right: 150px;
+}
+
+#message-box {
+  position: absolute;
+  margin-top: 450px;
+  font-size: 25px;
+  font-family: monospace;
+}
